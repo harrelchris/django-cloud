@@ -4,4 +4,6 @@ set -e
 
 source .venv/bin/activate
 
-python manage.py runserver
+source .env
+
+python -m gunicorn

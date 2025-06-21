@@ -1,9 +1,14 @@
 import multiprocessing
-import os
 
-HOST = os.getenv("HOST", "0.0.0.0")
+import environ
 
-PORT = os.getenv("PORT", "8000")
+env = environ.Env()
+
+env.read_env()
+
+HOST = env.str("HOST")
+
+PORT = env.int("PORT")
 
 accesslog = "-"
 

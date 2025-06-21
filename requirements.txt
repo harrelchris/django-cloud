@@ -4,3 +4,4 @@ django-environ
 gunicorn
 psycopg[binary]
 ruff
+whitenoise

@@ -1,0 +1,15 @@
+.git/
+.idea/
+.local/
+.static/
+.venv/
+scripts/
+
+.dockerignore
+.DS_Store
+.editorconfig
+.gitignore
+dev.env
+Dockerfile
+README.md
+ruff.toml
